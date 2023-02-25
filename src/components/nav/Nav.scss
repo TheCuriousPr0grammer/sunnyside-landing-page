@@ -1,13 +1,13 @@
 .nav-wrapper {
 	display: flex;
-	background-color: black;
 	width: max-content;
 	padding: 0rem 0.5rem;
 }
 
 .nav-link {
-	color: var(--yellow);
+	color: var(--white);
 	padding: 1rem;
+	margin-right: 2rem;
 	cursor: pointer;
 	font-family: var(--barlowFont);
 	font-weight: 600;
