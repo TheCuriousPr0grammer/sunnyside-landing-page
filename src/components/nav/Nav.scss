@@ -1,0 +1,22 @@
+.nav-wrapper {
+	display: flex;
+	background-color: black;
+	width: max-content;
+	padding: 0rem 0.5rem;
+}
+
+.nav-link {
+	color: var(--yellow);
+	padding: 1rem;
+	cursor: pointer;
+	font-family: var(--barlowFont);
+	font-weight: 600;
+}
+
+.contact {
+	background-color: var(--white);
+	color: var(--very-dark-desaturated-blue);
+	text-transform: uppercase;
+	padding: 1rem 2rem;
+	border-radius: 2rem;
+}
