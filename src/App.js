@@ -1,3 +1,4 @@
+import Gallery from "./components/gallery-section/Gallery";
 import Header from "./components/header/Header";
 import MainTeaser from "./components/main-teaser/MainTeaser";
 import Testimonials from "./components/testimonials-section/Testimonials";
@@ -11,6 +12,7 @@ function App() {
 			<Header />
 			<MainTeaser />
 			<Testimonials />
+			<Gallery />
 		</div>
 	);
 }

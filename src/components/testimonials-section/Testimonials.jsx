@@ -12,7 +12,7 @@ export default function Testimonials() {
 			clientName: "Emily R.",
 			clientFunction: "Marketing Director",
 			testimonialText:
-				"We put our trust in Sunnyside and they delivered,making sure our needs were met and deadlines were always hit.",
+				"We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.",
 		},
 		{
 			imageUrl: ThomasImageURL,
@@ -31,7 +31,7 @@ export default function Testimonials() {
 	];
 
 	return (
-		<div className="testimonials-section">
+		<div>
 			<div className="testimonials-section__headline">Client Testimonials</div>
 			<div className="testimonials-section__wrapper">
 				{clientTestimonials.map((testimonial, index) => {

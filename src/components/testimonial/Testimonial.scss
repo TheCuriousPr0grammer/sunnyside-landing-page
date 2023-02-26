@@ -1,0 +1,33 @@
+.testimonial {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	font-family: var(--barlowFont);
+
+	& .testimonial-image {
+		border-radius: 50%;
+		width: 80px;
+
+		& img {
+			border-radius: inherit;
+			width: inherit;
+		}
+	}
+
+	& .testimonial-text {
+		padding: 3rem 3rem;
+		line-height: 1.5rem;
+		text-align: center;
+	}
+
+	& .testimonial-client__name {
+		font-family: var(--frauncesFont);
+		font-size: 1.5rem;
+	}
+
+	& .testimonial-client__function {
+		color: var(--grayish-blue);
+	}
+}
