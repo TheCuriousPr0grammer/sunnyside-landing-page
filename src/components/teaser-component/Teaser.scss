@@ -1,5 +1,18 @@
 .teaser {
-	padding: 12rem 4rem;
+	padding: 7rem 10rem;
+	font-family: var(--frauncesFont);
+	height: 100%;
+}
+
+// .wrapper {
+// 	padding: 0rem 4rem;
+// }
+
+.teaser-service {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
 	font-family: var(--frauncesFont);
 	height: 100%;
 }
@@ -12,4 +25,39 @@
 .photographyService {
 	background: url("../../images/desktop/image-photography.jpg");
 	background-size: 100% 100%;
+}
+
+.teaser-headline {
+	margin-bottom: 2rem;
+	font-size: 3rem;
+}
+
+.teaser-description {
+	font-family: var(--barlowFont);
+	line-height: 1.3rem;
+	color: var(--grayish-blue);
+}
+.teaser-learn_more {
+	margin-top: 2rem;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.yellow {
+	text-decoration: underline;
+	text-decoration-color: var(--yellow);
+	text-decoration-thickness: 6px;
+	text-underline-offset: 4px;
+}
+
+.orange {
+	text-decoration: underline;
+	text-decoration-color: var(--soft-red);
+	text-decoration-thickness: 6px;
+	text-underline-offset: 4px;
 }

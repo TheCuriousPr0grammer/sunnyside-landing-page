@@ -21,30 +21,30 @@ export default function MainTeaser() {
 				<Teaser
 					headline={transformHeadline}
 					description={transformDescription}
-					learnMore={true}
+					learnMore="yellow"
 				/>
 			</div>
-			<div className="egg">
+			<div className="egg area">
 				<Teaser />
 			</div>
-			<div className="cup">
+			<div className="cup area">
 				<Teaser />
 			</div>
-			<div className="standout">
+			<div className="standout area">
 				<Teaser
 					headline={standoutHeadline}
 					description={standoutDescription}
-					learnMore={true}
+					learnMore="orange"
 				/>
 			</div>
-			<div className="graphicDesign">
+			<div className="graphicDesign area">
 				<Teaser
 					headline={graphicDesignHeadline}
 					description={graphicDesignDescription}
 					classes="graphicDesign"
 				/>
 			</div>
-			<div className="photography">
+			<div className="photography area">
 				<Teaser
 					headline={photographyHeadline}
 					description={photographyDescription}

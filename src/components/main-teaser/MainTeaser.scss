@@ -9,6 +9,11 @@
 .transform-brand {
 	grid-area: 1 / 1 / 2 / 2;
 }
+
+.area {
+	height: 100%;
+}
+
 .egg {
 	grid-area: 1 / 2 / 2 / 3;
 	background: url("../../images/desktop/image-transform.jpg");
