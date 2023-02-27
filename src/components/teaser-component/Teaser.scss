@@ -4,27 +4,45 @@
 	height: 100%;
 }
 
-// .wrapper {
-// 	padding: 0rem 4rem;
-// }
-
 .teaser-service {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
 	font-family: var(--frauncesFont);
+	padding: 2rem 10rem;
 	height: 100%;
 }
 
 .graphicDesign {
 	background: url("../../images/desktop/image-graphic-design.jpg");
 	background-size: 100% 100%;
+	color: var(--dark-desaturated-cyan);
+
+	& .teaser-headline {
+		font-size: 1.8rem;
+	}
+
+	& .teaser-description {
+		color: var(--dark-desaturated-cyan);
+		text-align: center;
+		padding: 0rem 2rem;
+	}
 }
 
 .photographyService {
 	background: url("../../images/desktop/image-photography.jpg");
 	background-size: 100% 100%;
+
+	& .teaser-headline {
+		font-size: 1.8rem;
+	}
+
+	& .teaser-description {
+		color: var(--very-dark-desaturated-blue);
+		text-align: center;
+		padding: 0rem 2rem;
+	}
 }
 
 .teaser-headline {

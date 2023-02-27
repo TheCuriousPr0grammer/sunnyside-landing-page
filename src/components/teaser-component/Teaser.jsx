@@ -4,9 +4,7 @@ export default function Teaser({ headline, description, learnMore, classes }) {
 	return (
 		<>
 			{headline ? (
-				<div
-					className={classes ? "teaser-service wrapper " + classes : "teaser"}
-				>
+				<div className={classes ? "teaser-service " + classes : "teaser"}>
 					<h2 className="teaser-headline">{headline}</h2>
 					<p className="teaser-description">{description}</p>
 					{learnMore ? (
