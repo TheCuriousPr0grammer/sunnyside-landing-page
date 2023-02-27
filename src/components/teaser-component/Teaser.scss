@@ -71,6 +71,10 @@ a {
 	text-decoration-color: var(--yellow);
 	text-decoration-thickness: 6px;
 	text-underline-offset: 4px;
+	transition: all 1s ease;
+	&:hover {
+		transform: scale(1.01);
+	}
 }
 
 .orange {
@@ -78,4 +82,8 @@ a {
 	text-decoration-color: var(--soft-red);
 	text-decoration-thickness: 6px;
 	text-underline-offset: 4px;
+	transition: all 1s ease;
+	&:hover {
+		transform: scale(1.01);
+	}
 }
