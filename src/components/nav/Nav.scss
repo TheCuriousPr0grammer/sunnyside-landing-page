@@ -11,6 +11,10 @@
 	cursor: pointer;
 	font-family: var(--barlowFont);
 	font-weight: 600;
+	transition: all 1s ease;
+	&:hover:not(.contact) {
+		transform: scale(1.2);
+	}
 }
 
 .contact {
@@ -19,4 +23,10 @@
 	text-transform: uppercase;
 	padding: 1rem 2rem;
 	border-radius: 2rem;
+	transition: all 1s ease;
+
+	&:hover {
+		background-color: rgb(255 255 255 / 30%);
+		color: white;
+	}
 }
